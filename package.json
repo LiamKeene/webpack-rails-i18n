@@ -1,0 +1,22 @@
+{
+  "name": "webpack-rails-i18n",
+  "version": "0.0.1",
+  "description": "Webpack plugin to include Rails I18n translation strings in frontend code",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --recursive --compilers js:babel-core/register"
+  },
+  "author": "Liam Keene",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.1",
+    "eslint": "^4.5.0",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "virtual-module-webpack-plugin": "^0.3.0"
+  }
+}
