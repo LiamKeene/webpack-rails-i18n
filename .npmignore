@@ -1,2 +1,6 @@
+*.log
+.eslintrc
+.babelrc
+
 test
 node_modules

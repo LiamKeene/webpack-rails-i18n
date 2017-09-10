@@ -18,6 +18,10 @@
     "url": "https://github.com/LiamKeene/webpack-rails-i18n/issues"
   },
   "main": "src/index.js",
+  "files": [
+    "src/index.js",
+    "src/webpack-rails-i18n-loader.js"
+  ],
   "scripts": {
   },
   "dependencies": {
