@@ -1,7 +1,7 @@
 const fs        = require("fs")
 const glob      = require("glob")
 const path      = require("path")
-const yaml      = require("yaml-js")
+const yaml      = require("js-yaml")
 const deepmerge = require("deepmerge")
 
 const listLocaleFiles = ({ localesPath, pattern }) => glob.sync(pattern, { cwd: localesPath })

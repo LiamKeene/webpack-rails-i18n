@@ -27,8 +27,8 @@
   "dependencies": {
     "deepmerge": "^1.5.1",
     "glob": "^7.1.2",
-    "virtual-module-webpack-plugin": "^0.3.0",
-    "yaml-js": "^0.2.0"
+    "js-yaml": "^3.11.0",
+    "virtual-module-webpack-plugin": "^0.4.0"
   },
   "devDependencies": {
     "eslint": "^4.5.0"
